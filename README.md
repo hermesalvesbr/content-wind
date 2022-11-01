@@ -1,46 +1,10 @@
-
 # Assinar PDF para usuários registrados
  - Documentos em https://cms.softagon.app
 
-# Content v2 Minimal Starter
+- Tema utilizado
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design) and [Vue components](https://vuejs.org).
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+- 📖&nbsp; [Demo & Docs](https://content-wind.nuxt.space)
+- 🕹&nbsp; [Play online](https://stackblitz.com/github/Atinux/content-wind-template)
+- 👀&nbsp; [Demo video](https://twitter.com/Atinux/status/1578505586979012608)
