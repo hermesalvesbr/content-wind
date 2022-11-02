@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    'nuxt-icon'
+    'nuxt-icon',
+    '@formkit/nuxt'
   ],
   // https://color-mode.nuxtjs.org
   colorMode: {
