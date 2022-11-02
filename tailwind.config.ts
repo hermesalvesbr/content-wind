@@ -1,6 +1,7 @@
 import colors from 'tailwindcss/colors'
 
 export default {
+<<<<<<< HEAD
   darkMode: 'class',
   plugins: [
     require('@tailwindcss/typography')
@@ -13,3 +14,17 @@ export default {
     }
   }
 }
+=======
+    darkMode: 'class',
+    plugins: [
+        require('@tailwindcss/typography')
+    ],
+    theme: {
+        extend: {
+            colors: {
+                primary: colors.gray
+            }
+        }
+    }
+}
+>>>>>>> wind

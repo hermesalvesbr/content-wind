@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+
+<template>
+  <div class="nuxt-progress" :class="{
+    'nuxt-progress-failed': !data.canSucceed,
+  }" :style="{
+      width: `${data.percent}%`,
+      left: data.left,
+      height: `${props.height}px`,
+      opacity: data.show ? 1 : 0,
+      backgroundSize: `${(100 / data.percent) * 100}% auto`,
+    }" />
+</template>
+>>>>>>> wind
 <script setup>
 import { useNuxtApp, onBeforeUnmount, reactive } from '#imports'
 
@@ -30,12 +45,20 @@ let _throttle = null
 let _cut
 
 // Functions
+<<<<<<< HEAD
 function clear () {
+=======
+function clear() {
+>>>>>>> wind
   _timer && clearInterval(_timer)
   _throttle && clearTimeout(_throttle)
   _timer = null
 }
+<<<<<<< HEAD
 function start () {
+=======
+function start() {
+>>>>>>> wind
   if (data.show) { return }
   clear()
   data.percent = 0
@@ -47,6 +70,7 @@ function start () {
     startTimer()
   }
 }
+<<<<<<< HEAD
 function increase (num) {
   data.percent = Math.min(100, Math.floor(data.percent + num))
 }
@@ -55,6 +79,16 @@ function finish () {
   hide()
 }
 function hide () {
+=======
+function increase(num) {
+  data.percent = Math.min(100, Math.floor(data.percent + num))
+}
+function finish() {
+  data.percent = 100
+  hide()
+}
+function hide() {
+>>>>>>> wind
   clear()
   setTimeout(() => {
     data.show = false
@@ -63,7 +97,11 @@ function hide () {
     }, 400)
   }, 500)
 }
+<<<<<<< HEAD
 function startTimer () {
+=======
+function startTimer() {
+>>>>>>> wind
   data.show = true
   _cut = 10000 / Math.floor(props.duration)
   _timer = setInterval(() => {
@@ -78,6 +116,7 @@ nuxtApp.hook('page:finish', finish)
 
 onBeforeUnmount(() => clear)
 </script>
+<<<<<<< HEAD
 
 <template>
   <div
@@ -95,6 +134,8 @@ onBeforeUnmount(() => clear)
   />
 </template>
 
+=======
+>>>>>>> wind
 <style>
 .nuxt-progress {
   position: fixed;

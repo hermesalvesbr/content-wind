@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 <script setup lang="ts">
 const colorMode = useColorMode()
 const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
 </script>
+=======
+
+>>>>>>> wind
 
 <template>
   <button aria-label="Color Mode" class="inline-block w-5" @click="onClick">
@@ -11,3 +15,10 @@ const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'da
     </ColorScheme>
   </button>
 </template>
+<<<<<<< HEAD
+=======
+<script setup lang="ts">
+const colorMode = useColorMode()
+const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
+</script>
+>>>>>>> wind
