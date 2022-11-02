@@ -3,12 +3,12 @@
   <div class="nuxt-progress" :class="{
     'nuxt-progress-failed': !data.canSucceed,
   }" :style="{
-      width: `${data.percent}%`,
-      left: data.left,
-      height: `${props.height}px`,
-      opacity: data.show ? 1 : 0,
-      backgroundSize: `${(100 / data.percent) * 100}% auto`,
-    }" />
+    width: `${data.percent}%`,
+    left: data.left,
+    height: `${props.height}px`,
+    opacity: data.show ? 1 : 0,
+    backgroundSize: `${(100 / data.percent) * 100}% auto`,
+  }" />
 </template>
 <script setup>
 import { useNuxtApp, onBeforeUnmount, reactive } from '#imports'
@@ -48,7 +48,9 @@ function clear() {
   _timer = null
 }
 function start() {
-  if (data.show) { return }
+  if (data.show) {
+    return
+  }
   clear()
   data.percent = 0
   data.canSucceed = true

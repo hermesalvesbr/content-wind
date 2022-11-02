@@ -9,7 +9,7 @@
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare",
-    "lint": "eslint ."
+    "lint": "npx eslint . --ext .js --ext .ts"
   },
   "dependencies": {
     "@nuxt/content": "^2.2.0",
@@ -22,8 +22,12 @@
   "devDependencies": {
     "@nuxthq/studio": "^0.1.0",
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
     "content-wind": "^0.2.4",
-    "eslint": "^8.25.0",
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^9.7.0",
     "nuxt": "^3.0.0-rc.12",
     "standard-version": "^9.5.0",
     "typescript": "^4.8.4"
