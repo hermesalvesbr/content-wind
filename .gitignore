@@ -5,16 +5,4 @@ node_modules
 .cache
 .output
 .env
-<<<<<<< HEAD
 dist
-.DS_Store
-
-# Yarn
-.yarn/cache
-.yarn/*state*
-
-# Local History
-.history
-=======
-dist
->>>>>>> wind

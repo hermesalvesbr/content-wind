@@ -1,11 +1,7 @@
 # Assinar PDF para usuários registrados
  - Documentos em https://cms.softagon.app
 
-<<<<<<< HEAD
-- Tema utilizado
-=======
 # Tema utilizado
->>>>>>> wind
 
 A personal website theme powered by [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design) and [Vue components](https://vuejs.org).
 

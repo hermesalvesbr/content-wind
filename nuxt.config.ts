@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
-export default defineNuxtConfig({
-=======
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   extends: 'content-wind',
->>>>>>> wind
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
@@ -23,10 +18,6 @@ export default defineNuxtConfig({
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'dracula'
     }
-<<<<<<< HEAD
-  }
-})
-=======
   },
   // Workaround for Stackblitz on RC12
   experimental: {
@@ -35,4 +26,3 @@ export default defineNuxtConfig({
 })
 
 
->>>>>>> wind
