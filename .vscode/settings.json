@@ -1,13 +1,19 @@
 {
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": false,
+  "[vue]": {
+    "editor.formatOnType": false,
+    "editor.formatOnSave": false
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "files.associations": {
-    "*.css": "postcss"
-  },
-  "editor.formatOnSave": true,
   "eslint.validate": [
     "javascript",
-    "typescript"
-  ]
+    "javascriptvue",
+    "typescript",
+    "typescriptvue",
+    "vue"
+  ],
 }

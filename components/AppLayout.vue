@@ -18,8 +18,8 @@ const { cover } = useAppConfig()
 </script>
 
 <style lang="postcss">
-/**   @apply bg-primary-50 dark:bg-primary-900; */
 body {
     @apply bg-primary-50
+    /**  dark: bg-primary-900;*/
 }
 </style>
